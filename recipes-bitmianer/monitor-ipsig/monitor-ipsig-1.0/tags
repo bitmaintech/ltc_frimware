@@ -1,0 +1,75 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CFLAGS	Makefile	/^CFLAGS=-g$/;"	m
+DEBUG_P	debug.h	4;"	d
+DEBUG_S	debug.h	3;"	d
+DEBUG_SHOW	debug.h	7;"	d
+DEBUG_SHOW	debug.h	9;"	d
+DEBUG_printf	debug.h	14;"	d
+DEBUG_printf	debug.h	16;"	d
+DELAY_2S	monitor-ipsig.c	17;"	d	file:
+DELAY_2S	monitor-ipsig_old.c	17;"	d	file:
+FOR_2MIM	monitor-ipsig.c	18;"	d	file:
+FOR_2MIM	monitor-ipsig_old.c	18;"	d	file:
+KEY_TIMES	monitor-ipsig.c	19;"	d	file:
+KEY_TIMES	monitor-ipsig_old.c	19;"	d	file:
+_GEN_MIDDATA_H	get_mac_ip.h	2;"	d
+__DEBUG_H_	debug.h	2;"	d
+addrto	monitor-ipsig.c	/^struct sockaddr_in addrto;$/;"	v	typeref:struct:sockaddr_in
+addrto	monitor-ipsig_old.c	/^struct sockaddr_in addrto;$/;"	v	typeref:struct:sockaddr_in
+bool	monitor-ipsig.c	/^typedef enum{false=0,true=!false} bool ;$/;"	t	typeref:enum:__anon2	file:
+bool	monitor-ipsig_old.c	/^typedef enum{false=0,true=!false} bool ;$/;"	t	typeref:enum:__anon1	file:
+check_result	monitor-ipsig.c	/^int check_result()$/;"	f
+check_result	monitor-ipsig_old.c	/^int check_result()                       $/;"	f
+do_start	monitor-ipsig.sh	/^do_start() {$/;"	f
+do_stop	monitor-ipsig.sh	/^do_stop() {$/;"	f
+exe	Makefile	/^exe = monitor-ipsig$/;"	m
+failure_action	monitor-ipsig.c	/^int failure_action()$/;"	f
+failure_action	monitor-ipsig_old.c	/^int failure_action()$/;"	f
+false	monitor-ipsig.c	/^typedef enum{false=0,true=!false} bool ;$/;"	e	enum:__anon2	file:
+false	monitor-ipsig_old.c	/^typedef enum{false=0,true=!false} bool ;$/;"	e	enum:__anon1	file:
+from	monitor-ipsig.c	/^struct sockaddr_in from;$/;"	v	typeref:struct:sockaddr_in
+from	monitor-ipsig_old.c	/^struct sockaddr_in from;$/;"	v	typeref:struct:sockaddr_in
+gen_cuniqid	get_mac_ip.c	/^char *gen_cuniqid(char *uniqid )$/;"	f	signature:(char *uniqid )
+gen_cuniqid	get_mac_ip.h	/^char *gen_cuniqid(char *uniqid );$/;"	p	signature:(char *uniqid )
+get_ip	get_mac_ip.c	/^int get_ip(char *eth, char *ipaddr)$/;"	f	signature:(char *eth, char *ipaddr)
+get_ip	get_mac_ip.h	/^int get_ip(char *eth, char *ipaddr);$/;"	p	signature:(char *eth, char *ipaddr)
+get_mac	get_mac_ip.c	/^char *get_mac(char *mac,char *ethn)$/;"	f	signature:(char *mac,char *ethn)
+get_mac	get_mac_ip.h	/^char *get_mac(char *mac,char *ethn);$/;"	p	signature:(char *mac,char *ethn)
+get_macforkey	get_mac_ip.c	/^char *get_macforkey(char *mac,char *ethn)$/;"	f	signature:(char *mac,char *ethn)
+getkey_gpio_26	monitor-ipsig.c	/^bool getkey_gpio_26()$/;"	f
+getkey_gpio_26	monitor-ipsig_old.c	/^bool getkey_gpio_26()$/;"	f
+getkey_gpio_46	monitor-ipsig.c	/^bool getkey_gpio_46()$/;"	f
+getkey_gpio_46	monitor-ipsig_old.c	/^bool getkey_gpio_46()$/;"	f
+interval_count	monitor-ipsig.c	/^int interval_count=0;$/;"	v
+interval_count	monitor-ipsig_old.c	/^int interval_count=0;$/;"	v
+isExist	monitor-ipsig.c	/^int isExist(char *filename)$/;"	f	signature:(char *filename)
+isExist	monitor-ipsig_old.c	/^int isExist(char *filename)  $/;"	f	signature:(char *filename)
+key_test	monitor-ipsig.c	/^int key_test()             \/\/Removing jitter$/;"	f
+key_test	monitor-ipsig_old.c	/^int key_test()$/;"	f
+key_value	monitor-ipsig.c	/^int key_value=0;$/;"	v
+key_value	monitor-ipsig_old.c	/^int key_value=0;$/;"	v
+mac_tmp	monitor-ipsig.c	/^char mac_tmp[30] = {0};$/;"	v
+mac_tmp	monitor-ipsig_old.c	/^char mac_tmp[30] = {0};$/;"	v
+main	monitor-ipsig.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	monitor-ipsig_old.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+rg_off	monitor-ipsig.c	/^void rg_off(void)$/;"	f	signature:(void)
+rg_off	monitor-ipsig_old.c	/^void rg_off(void)$/;"	f	signature:(void)
+rg_on	monitor-ipsig.c	/^void rg_on(void)$/;"	f	signature:(void)
+rg_on	monitor-ipsig_old.c	/^void rg_on(void)$/;"	f	signature:(void)
+send_ack	monitor-ipsig.c	/^int send_ack(char *ack)$/;"	f	signature:(char *ack)
+send_ack	monitor-ipsig_old.c	/^int send_ack(char *ack)$/;"	f	signature:(char *ack)
+send_ipmac	monitor-ipsig.c	/^int send_ipmac()              \/\/sleep 2s ,发送一次，接收函数需要无阻塞$/;"	f
+send_ipmac	monitor-ipsig_old.c	/^int send_ipmac()              \/\/sleep 2s ,发送一次，接收函数需要无阻塞$/;"	f
+success_action	monitor-ipsig.c	/^int success_action()$/;"	f
+success_action	monitor-ipsig_old.c	/^int success_action()$/;"	f
+true	monitor-ipsig.c	/^typedef enum{false=0,true=!false} bool ;$/;"	e	enum:__anon2	file:
+true	monitor-ipsig_old.c	/^typedef enum{false=0,true=!false} bool ;$/;"	e	enum:__anon1	file:
+udp_init	monitor-ipsig.c	/^int udp_init()$/;"	f
+udp_init	monitor-ipsig_old.c	/^int udp_init()$/;"	f
+udp_sock	monitor-ipsig.c	/^int udp_sock = -1;$/;"	v
+udp_sock	monitor-ipsig_old.c	/^int udp_sock = -1;$/;"	v

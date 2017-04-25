@@ -7,6 +7,6 @@ echo "dcdc:2345:respawn:${base_sbindir}/monitorcg" >> ${D}${sysconfdir}/inittab
 if [ x"S4" == x"${Miner_TYPE}" -o x"S2" == x"${Miner_TYPE}" ]; then
 echo "mlcd:2345:respawn:${base_sbindir}/minerlcd" >> ${D}${sysconfdir}/inittab
 fi
-echo "nand:2345:once:${sysconfdir}/init.d/pgnand.sh" >> ${D}${sysconfdir}/inittab
+//echo "nand:2345:once:${sysconfdir}/init.d/pgnand.sh" >> ${D}${sysconfdir}/inittab
 }
 

@@ -70,8 +70,8 @@ do_install_append() {
 	install -m 0755 ${WORKDIR}/miner_lcd.sh ${D}${base_sbindir}/minerlcd
 	install -d ${D}${bindir}
 	rm -rf ${D}${bindir}/compile_time
-        echo "Tue Apr 25 14:43:30 CST 2017" > ${D}${bindir}/compile_time
-        echo "Antminer L3+" >> ${D}${bindir}/compile_time
+        echo "Thu Apr 27 14:28:26 CST 2017" > ${D}${bindir}/compile_time
+        echo "Antminer L3" >> ${D}${bindir}/compile_time
 }
 
 SRC_URI_append = " file://mountdevtmpfs.sh"

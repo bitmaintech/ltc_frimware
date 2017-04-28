@@ -145,7 +145,7 @@ do_start() {
 
 	PARAMS="--scrypt --version-file /usr/bin/compile_time "
 	echo PARAMS = $PARAMS
-	start-stop-daemon -b -S -x screen -- -S cgminer -t cgminer -m -d "$DAEMON" $PARAMS  --default-config /config/cgminer.conf -T --syslog
+	start-stop-daemon -b -S -x screen -- -S cgminer -t cgminer -m -d "$DAEMON" $PARAMS  --default-config /config/cgminer.conf -T
 	#cgminer $PARAMS -D --api-listen --default-config /config/cgminer.conf 2>&1 | tee log
 }
 

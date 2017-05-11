@@ -70,7 +70,7 @@ do_install_append() {
 	install -m 0755 ${WORKDIR}/miner_lcd.sh ${D}${base_sbindir}/minerlcd
 	install -d ${D}${bindir}
 	rm -rf ${D}${bindir}/compile_time
-        echo "Fri Apr 28 20:17:11 CST 2017" > ${D}${bindir}/compile_time
+        echo "Thu May 11 10:42:49 CST 2017" > ${D}${bindir}/compile_time
         echo "Antminer L3+" >> ${D}${bindir}/compile_time
 }
 

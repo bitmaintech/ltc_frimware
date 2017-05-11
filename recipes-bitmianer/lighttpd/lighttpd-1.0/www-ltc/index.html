@@ -71,7 +71,7 @@ function f_get_system_info() {
 				$("#ant_system_hardware_version").html(hw_version);
 				$("#ant_system_kernel_version").html(data.system_kernel_version);
 				$("#ant_system_filesystem_version").html(data.system_filesystem_version);
-				$("#ant_bmminer_version").html(data.bmminer_version);
+				$("#ant_bmminer_version").html(data.cgminer_version);
 			}
 			catch(err)
 			{
@@ -146,7 +146,7 @@ $(document).ready(function() {
 					<tr><td width="33%">Hardware Version</td><td id="ant_system_hardware_version"></td></tr>
 					<tr><td width="33%">Kernel Version</td><td id="ant_system_kernel_version"></td></tr>
 					<tr><td width="33%">File System Version</td><td id="ant_system_filesystem_version"></td></tr>
-					<tr><td width="33%">BMminer Version</td><td id="ant_bmminer_version"></td></tr>
+					<tr><td width="33%">CGminer Version</td><td id="ant_bmminer_version"></td></tr>
 					<tr><td width="33%">Uptime</td><td id="ant_uptime"></td></tr>
 					<tr><td width="33%">Load Average</td><td id="ant_loadaverage"></td></tr>
 				</table>
